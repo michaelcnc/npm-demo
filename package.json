@@ -1,0 +1,27 @@
+{
+  "name": "npm-demo",
+  "version": "1.0.0",
+  "description": "a demo to illustrate how to create npm packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelcnc/npm-demo.git"
+  },
+  "keywords": [
+    "npm",
+    "demo"
+  ],
+  "author": "Michael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelcnc/npm-demo/issues"
+  },
+  "homepage": "https://github.com/michaelcnc/npm-demo#readme",
+  "dependencies": {
+    "mongoose": "^7.3.2",
+    "underscore": "^1.13.6"
+  }
+}
